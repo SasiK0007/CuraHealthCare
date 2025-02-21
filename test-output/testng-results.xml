@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-21T15:06:10 IST" name="Default suite" finished-at="2025-02-21T15:06:10 IST" duration-ms="52">
+  <suite started-at="2025-02-22T00:21:21 IST" name="Default suite" finished-at="2025-02-22T00:21:30 IST" duration-ms="8461">
     <groups>
     </groups>
-    <test started-at="2025-02-21T15:06:10 IST" name="Default test" finished-at="2025-02-21T15:06:10 IST" duration-ms="52">
+    <test started-at="2025-02-22T00:21:21 IST" name="Default test" finished-at="2025-02-22T00:21:30 IST" duration-ms="8461">
       <class name="org.cura.health.tests.CuraHealth">
-        <test-method signature="curaOne()[pri:0, instance:org.cura.health.tests.CuraHealth@1c1bbc4e]" started-at="2025-02-21T15:06:10 IST" name="curaOne" finished-at="2025-02-21T15:06:10 IST" duration-ms="9" status="PASS">
+        <test-method signature="curaTwo()[pri:0, instance:org.cura.health.tests.CuraHealth@2a5c8d3f]" started-at="2025-02-22T00:21:21 IST" name="curaTwo" finished-at="2025-02-22T00:21:30 IST" duration-ms="8410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- curaOne -->
+        </test-method> <!-- curaTwo -->
       </class> <!-- org.cura.health.tests.CuraHealth -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
