@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-21T15:06:10 IST" name="Default suite" finished-at="2025-02-21T15:06:10 IST" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2025-02-21T15:06:10 IST" name="Default test" finished-at="2025-02-21T15:06:10 IST" duration-ms="52">
+      <class name="org.cura.health.tests.CuraHealth">
+        <test-method signature="curaOne()[pri:0, instance:org.cura.health.tests.CuraHealth@1c1bbc4e]" started-at="2025-02-21T15:06:10 IST" name="curaOne" finished-at="2025-02-21T15:06:10 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curaOne -->
+      </class> <!-- org.cura.health.tests.CuraHealth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
