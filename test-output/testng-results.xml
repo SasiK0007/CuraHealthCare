@@ -2,12 +2,12 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-22T00:21:21 IST" name="Default suite" finished-at="2025-02-22T00:21:30 IST" duration-ms="8461">
+  <suite started-at="2025-02-23T01:07:54 IST" name="Default suite" finished-at="2025-02-23T01:08:06 IST" duration-ms="12067">
     <groups>
     </groups>
-    <test started-at="2025-02-22T00:21:21 IST" name="Default test" finished-at="2025-02-22T00:21:30 IST" duration-ms="8461">
+    <test started-at="2025-02-23T01:07:54 IST" name="Default test" finished-at="2025-02-23T01:08:06 IST" duration-ms="12067">
       <class name="org.cura.health.tests.CuraHealth">
-        <test-method signature="curaTwo()[pri:0, instance:org.cura.health.tests.CuraHealth@2a5c8d3f]" started-at="2025-02-22T00:21:21 IST" name="curaTwo" finished-at="2025-02-22T00:21:30 IST" duration-ms="8410" status="PASS">
+        <test-method signature="curaTwo()[pri:0, instance:org.cura.health.tests.CuraHealth@2a5c8d3f]" started-at="2025-02-23T01:07:54 IST" name="curaTwo" finished-at="2025-02-23T01:08:06 IST" duration-ms="12005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- curaTwo -->

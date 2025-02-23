@@ -7,6 +7,7 @@ import java.util.Properties;
 
 import org.cura.health.tests.pages.CuraHomePage;
 import org.cura.health.tests.pages.CuraLoginPage;
+import org.cura.health.tests.pages.CuraMakeAppointment;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,6 +20,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public CuraHomePage curaHomePage;
 	public CuraLoginPage curaLoginPage;
+	public CuraMakeAppointment makeAppointment;
 	public WebDriver getDetailsFromPropertiesFile(WebDriver driver) throws IOException {
 		Properties properties = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\kakar\\eclipse-workspace\\New folder\\CuraHealthCare\\Resources\\config.properties");
@@ -47,6 +49,8 @@ public class BaseClass {
 		}
 		curaHomePage = new CuraHomePage(driver);
 		curaLoginPage = new CuraLoginPage(driver);
+		makeAppointment = new CuraMakeAppointment(driver);
 		return driver;
 	}
+	
 }
