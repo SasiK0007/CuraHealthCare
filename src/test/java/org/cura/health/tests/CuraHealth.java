@@ -21,18 +21,18 @@ public class CuraHealth extends BaseClass {
 		curaLoginPage.Login_UserName("John Doe");
 		curaLoginPage.Login_Password("ThisIsNotAPassword");
 		curaLoginPage.performSubmit();
-//		makeAppointment.selectFacility("Hongkong CURA Healthcare Center");
-//		makeAppointment.enableCheckbox();
-//		makeAppointment.tests();
-//		makeAppointment.selectHealthCareProgram("Medicaid");
-//		makeAppointment.selectCalendar();
-//		makeAppointment.selectMonthYear();
-//		makeAppointment.testings();
-//		makeAppointment.selectMonth();
-//		makeAppointment.testings1();
-//		makeAppointment.selectDate("3");
-//		curaHomePage.clickThreeDots();
-		makeAppointment.enterDate("01/01/1997");
+		makeAppointment.selectFacility("Hongkong CURA Healthcare Center");
+		makeAppointment.enableCheckbox();
+		makeAppointment.tests();
+		makeAppointment.selectHealthCareProgram("Medicaid");
+		makeAppointment.selectCalendar();
+		makeAppointment.selectMonthYear();
+		makeAppointment.testings();
+		makeAppointment.selectMonth();
+		makeAppointment.testings1();
+		makeAppointment.selectDate("3");
+		curaHomePage.clickThreeDots();
+		
 		
 	}
 }
