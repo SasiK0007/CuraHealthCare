@@ -29,6 +29,10 @@ public class CuraMakeAppointment implements CuraMakeAppointmentInterface{
 	@FindBy(xpath = "(//*[starts-with(@class,'datepicker-switch')])[1]")
 	private WebElement monthAndYear;
 	
+	public void enterDate(String text) {
+		monthAndYear.clear();
+		monthAndYear.sendKeys(text);
+	}
 	
 	@Override
 	public void selectFacility(String facilityName) {
