@@ -2,16 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-24T10:53:58 IST" name="Default suite" finished-at="2025-02-24T10:54:09 IST" duration-ms="10981">
+  <suite started-at="2025-02-26T17:53:29 IST" name="Default suite" finished-at="2025-02-26T17:53:35 IST" duration-ms="6144">
     <groups>
     </groups>
-    <test started-at="2025-02-24T10:53:58 IST" name="Default test" finished-at="2025-02-24T10:54:09 IST" duration-ms="10981">
-      <class name="org.cura.health.tests.CuraHealth">
-        <test-method signature="curaTwo()[pri:0, instance:org.cura.health.tests.CuraHealth@2a5c8d3f]" started-at="2025-02-24T10:53:58 IST" name="curaTwo" finished-at="2025-02-24T10:54:09 IST" duration-ms="10921" status="PASS">
+    <test started-at="2025-02-26T17:53:29 IST" name="Default test" finished-at="2025-02-26T17:53:35 IST" duration-ms="6144">
+      <class name="org.amend.series.tests.Amend">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-26T17:53:29 IST" name="launch" finished-at="2025-02-26T17:53:34 IST" duration-ms="4556" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- curaTwo -->
-      </class> <!-- org.cura.health.tests.CuraHealth -->
+        </test-method> <!-- launch -->
+        <test-method signature="testTwo()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-26T17:53:34 IST" name="testTwo" finished-at="2025-02-26T17:53:35 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- org.amend.series.tests.Amend -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
