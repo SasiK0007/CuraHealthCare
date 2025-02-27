@@ -62,5 +62,4 @@ public class HomePage implements HomePageInterface {
 				.below(By.cssSelector("a[href='/apps/pulp/gui/menu/create']"))).click();
 	}
 
-
 }

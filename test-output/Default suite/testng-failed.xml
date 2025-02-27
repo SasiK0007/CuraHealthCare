@@ -5,7 +5,7 @@
     <classes>
       <class name="org.amend.series.tests.Amend">
         <methods>
-          <include name="testOne"/>
+          <include name="testTwo"/>
           <include name="launch"/>
         </methods>
       </class> <!-- org.amend.series.tests.Amend -->

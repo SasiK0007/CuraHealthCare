@@ -2,16 +2,16 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-26T17:53:29 IST" name="Default suite" finished-at="2025-02-26T17:53:35 IST" duration-ms="6144">
+  <suite started-at="2025-02-27T11:34:10 IST" name="Default suite" finished-at="2025-02-27T11:34:17 IST" duration-ms="7783">
     <groups>
     </groups>
-    <test started-at="2025-02-26T17:53:29 IST" name="Default test" finished-at="2025-02-26T17:53:35 IST" duration-ms="6144">
+    <test started-at="2025-02-27T11:34:10 IST" name="Default test" finished-at="2025-02-27T11:34:17 IST" duration-ms="7783">
       <class name="org.amend.series.tests.Amend">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-26T17:53:29 IST" name="launch" finished-at="2025-02-26T17:53:34 IST" duration-ms="4556" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-27T11:34:10 IST" name="launch" finished-at="2025-02-27T11:34:13 IST" duration-ms="3704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="testTwo()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-26T17:53:34 IST" name="testTwo" finished-at="2025-02-26T17:53:35 IST" duration-ms="1493" status="PASS">
+        <test-method signature="testTwo()[pri:0, instance:org.amend.series.tests.Amend@75db5df9]" started-at="2025-02-27T11:34:13 IST" name="testTwo" finished-at="2025-02-27T11:34:17 IST" duration-ms="3975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->

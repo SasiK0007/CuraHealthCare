@@ -10,6 +10,11 @@ public class Amend extends BaseClass {
 	}
 	@Test
 	public void testTwo() throws Exception {
-		create.createSeriesName("222");
+		create.createSeriesName("Hello,World!");
+		series.performSeries();
+		series.listOfServices();
+		series.viewListSeries("Hello,World! [amend]");
+		series.performUpdate();
+		series.performDelete();
 	}
 }
